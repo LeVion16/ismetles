@@ -8,14 +8,14 @@
     <title>Összegzés</title>
 </head>
 <body>
-    <header>
+    <header id="up">
         <h1>Bemutatkozó oldal</h1>
     </header>
     <nav>
         <ul>
             <li><a href="#">Főoldal</a></li>
             <li><a href="">Táblázat</a></li>
-            <li><a href="">Kártya</a></li>
+            <li><a href="#card">Kártya</a></li>
             <li><a href="">Bevezető</a></li>
             <li><a href="">Képek</a></li>
         </ul>
@@ -34,11 +34,12 @@
                     <td>
                         <h3>Állatok</h3>
                         <ul>
-                        <li>Bálna</li>
-                        <li>Cápa</li>
-                        <li>Delfin</li>
-                        <li>Fóka</li>
-                    </ul></td>
+                            <li>Bálna</li>
+                            <li>Cápa</li>
+                            <li>Delfin</li>
+                            <li>Fóka</li>
+                        </ul>
+                    </td>
                 </tr>
                 <tr>
                     <td>
@@ -47,11 +48,12 @@
                     <td><img src="./img/delfin.jpg" alt="delfin" title="delfin"> </td>
                 </tr>
             </table>
-            <article>
+            <article id="card">
                 <img src="./img/arckép.jpg" alt="Én" title="Én">
                 <div class="card-body">
                     <h3>Bab Berci</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, neque culpa aperiam obcaecati corporis totam nulla earum corrupti quo, necessitatibus eveniet inventore vero harum laborum quasi accusamus deserunt soluta qui?</p>
+                    <a href="#up"><input type="button" value="küldés"/></a>
                 </div>
             </article>
     </main>
